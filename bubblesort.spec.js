@@ -1,8 +1,8 @@
-beforeAll(function() {
+/*beforeAll(function() {
   spyOn(window, "swap").and.callThrough();
 });
 it("swaps the right number of times", function() {});
-
+*/
 describe("Bubble Sort", function() {
   it("handles an empty array", function() {
     expect(bubbleSort([])).toEqual([]);
